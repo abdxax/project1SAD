@@ -1,0 +1,13 @@
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\bin\Debug\netcoreapp3.1\Project1_SAD.exe
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\bin\Debug\netcoreapp3.1\Project1_SAD.deps.json
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\bin\Debug\netcoreapp3.1\Project1_SAD.runtimeconfig.json
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\bin\Debug\netcoreapp3.1\Project1_SAD.runtimeconfig.dev.json
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\bin\Debug\netcoreapp3.1\Project1_SAD.dll
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\bin\Debug\netcoreapp3.1\Project1_SAD.pdb
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.AssemblyInfoInputs.cache
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.AssemblyInfo.cs
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.csproj.CoreCompileInputs.cache
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.dll
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.pdb
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.genruntimeconfig.cache
+C:\Users\jaral\source\repos\Project1_SAD\Project1_SAD\obj\Debug\netcoreapp3.1\Project1_SAD.csprojAssemblyReference.cache
