@@ -15,10 +15,10 @@ namespace Project1_SAD
            
         }
 
-        public void AddNewItem(int id,string _class,string section)
+        public void AddNewItem(int id,string name,string _class,string section)
         {
             writer = File.AppendText(path);
-            string value = id+"-"+_class+"-"+section+"\n";
+            string value = id+"-"+name+"-"+_class+"-"+section+"\n";
             writer.Write(value);
             
             Console.WriteLine("Added Done");
@@ -34,7 +34,7 @@ namespace Project1_SAD
                 string[] line = s.Split("-");
                 if (int.Parse(line[0]) == id)
                 {
-                    School school = new School(int.Parse(line[0]), line[1], line[2]);
+                    School school = new School(int.Parse(line[0]), line[1], line[2],line[3]);
                     return school;
                 }
 
@@ -43,7 +43,7 @@ namespace Project1_SAD
             return null;
         }
 
-        public void update(int oldID,int id,string _class,string section)
+        public void update(int oldID,int id,string name,string _class,string section)
         {
             string[] lines = File.ReadAllLines(path);
             bool status = false;
@@ -52,7 +52,7 @@ namespace Project1_SAD
                 string[] line = lines[i].Split("-");
                 if (int.Parse(line[0]) == oldID)
                 {
-                    lines[i] = id + "-" + _class + "-" + section;
+                    lines[i] = id + "-" +name+"-"+ _class +"-"+ section;
                     status = true;
                 }
             }

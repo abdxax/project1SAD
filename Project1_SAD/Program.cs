@@ -27,15 +27,18 @@ namespace Project1_SAD
                 switch (chose)
                 {
                     case 1:
-                        Console.WriteLine("Please Enter ID");
+                       
                         try
                         {
+                            Console.WriteLine("Please Enter ID");
                             int id = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Please Class Name"+id);
+                            Console.WriteLine("Please Enter Name");
+                            string name = Console.ReadLine();
+                            Console.WriteLine("Please Class Name");
                             string _class = Console.ReadLine();
                             Console.WriteLine("Please Enter Section Name");
                             string section = Console.ReadLine();
-                            school.AddNewItem(id, _class, section);
+                            school.AddNewItem(id, name,_class, section);
                             
                         }
                         catch(Exception e)
@@ -56,7 +59,7 @@ namespace Project1_SAD
                         School sch = school.GetSchool(search_id);
                         if (sch != null)
                         {
-                            Console.WriteLine($"The ID: {sch.ID}\nThe Class: {sch._class}\nThe Section: {sch.section}");
+                            Console.WriteLine($"The ID: {sch.ID}\nThe Name: {sch.Name}\nThe Class: {sch._class}\nThe Section: {sch.section}");
                         }
                         else
                         {
@@ -69,15 +72,17 @@ namespace Project1_SAD
                         School schoo = school.GetSchool(id_search);
                         if (schoo != null)
                         {
-                            Console.WriteLine($"The ID: {schoo.ID}\nThe Class: {schoo._class}\nThe Section: {schoo.section}");
+                            Console.WriteLine($"The ID: {schoo.ID}\nTheName: {schoo.Name}\nThe Class: {schoo._class}\nThe Section: {schoo.section}");
                             int old_id = schoo.ID;
                             Console.WriteLine("Please Enter new ID");
                             int new_id = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Please Enter new Name ");
+                            string new_name = Console.ReadLine();
                             Console.WriteLine("Please Enter new Class");
                             string new_class = Console.ReadLine();
                             Console.WriteLine("Please Enter new Section");
                             string new_section = Console.ReadLine();
-                            school.update(old_id, new_id, new_class, new_section);
+                            school.update(old_id, new_id, new_name,new_class, new_section);
                         }
                         else
                         {
